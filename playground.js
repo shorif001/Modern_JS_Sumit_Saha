@@ -6,6 +6,16 @@ function number(){
 }
 console.log(number())
 
+//normal function with parameter
+function number(n){
+    return 10;
+}
+console.log(number())
+
+
+
+
+
 //# arrow function
 
 let numberArrow = ()=>{
@@ -21,7 +31,8 @@ console.log(numberArrowShort())
 
 //jodi return er poriborte console.log thake 
 
-let numberArrowClg = ()=>{
-    console.log("first", 40)
+let numberArrowClg = () => {
+    console.log(40)
 }
 numberArrowClg()
+
