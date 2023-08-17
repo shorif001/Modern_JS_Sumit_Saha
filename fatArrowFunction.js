@@ -57,22 +57,17 @@ const searchInput = document.querySelector(".search");
 const display = document.querySelector(".result");
 const thanks = document.querySelector(".thanks");
 
-// //# normal function that works perfectly
-// function show(){
-//     display.innerHTML = this.value; //value pacchi
-//     var self = this;
-//     setTimeout(function(){
-//         thanks.innerHTML = `You have typed: ${self.value}`;
-//     }, 1000)
-// }
+//# normal function that works perfectly
+function show(){
+    display.innerHTML = this.value; //value pacchi
+    var self = this;
+    setTimeout(function(){
+        thanks.innerHTML = `You have typed: ${self.value}`;
+    }, 1000)
+}
 
-// searchInput.addEventListener("keyup", show)
+searchInput.addEventListener("keyup", show)
 
 
-//# arrow function
- 
-searchInput.addEventListener("keyup", () =>{
-    display.innerHTML = this.value;
-})
 
 //jodi bhitore change na hoy tahole arrow function
