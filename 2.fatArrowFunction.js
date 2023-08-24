@@ -87,5 +87,4 @@ let masud = {
 }
 masud.manushJane()
 
-
 console.log("fat arrow function end")
