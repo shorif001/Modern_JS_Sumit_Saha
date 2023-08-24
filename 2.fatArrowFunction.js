@@ -71,3 +71,20 @@ searchInput.addEventListener("keyup", show)
 
 
 //jodi bhitore change na hoy tahole arrow function
+
+
+
+let masud = {
+  name: "masud Karim",
+  shompod: ['Uttaray bari', '2ta gari', '3ta nari'],
+  manushJane: function(){
+    const jane = this;
+    this.shompod.forEach(function(a){
+      console.log(`${jane.name} dekhay ${a}`)
+    })
+  }
+}
+masud.manushJane()
+
+
+console.log("fat arrow function end")

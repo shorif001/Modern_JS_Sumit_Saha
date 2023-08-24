@@ -1,7 +1,7 @@
 // Array.prototype.find()
 
-var numbers = [1, 2, 3, 4, 5, 6, 10];
-numbers.find()
+// var numbers = [1, 2, 3, 4, 5, 6, 10];
+// numbers.find()
 
 /*numbers array er modde find() k call korte pari karon numbers notun ekta Array toiri kore.
 sheitar prototype er modde find() thake jar karone prototype er karone amra last object ta diyeo 
@@ -15,6 +15,12 @@ ebong kajta korte giye jodi ekbar tumi amake true return kore daw tahole ami
 sheikhan theke ber hoye ashbo porer element gulote r jabena*/
 
 /* amra kono particolar element jodi khujte chai ba pete chai tahole ami shei shomoy find() use korbo*/
+
+var numbers0 = [1, 2, 3, 4, 5, 6, 10];
+var result = numbers0.find(function(khujun){
+  return khujun > 4;
+});
+console.log(result)
 
 var numbers1 = [1, 2, 3, 4, 5, 6, 10];
 numbers1.find(function(currentValue){
