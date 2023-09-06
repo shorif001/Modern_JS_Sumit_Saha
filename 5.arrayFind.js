@@ -14,7 +14,8 @@ j kaj ta ami tomar prottek ta element er modde diye jawar shomoy korbo.
 ebong kajta korte giye jodi ekbar tumi amake true return kore daw tahole ami 
 sheikhan theke ber hoye ashbo porer element gulote r jabena*/
 
-/* amra kono particolar element jodi khujte chai ba pete chai tahole ami shei shomoy find() use korbo*/
+/* amra kono particolar element jodi khujte chai ba pete chai tahole ami shei shomoy 
+find() use korbo*/
 
 var numbers0 = [1, 2, 3, 4, 5, 6, 10];
 var result = numbers0.find(function (khujun) {
@@ -48,7 +49,7 @@ class Student {
     this.age = age;
   }
   /*
-  constructor hosse 1 ta object k diye vinno vinno object toiri kora.
+  constructor hosse! 1 ta object k diye vinno vinno object toiri kora.
   jemon: shorif er jonno 1ta object korimer jonno 1 ta object shojib er jonno ekta object
   example:
 
